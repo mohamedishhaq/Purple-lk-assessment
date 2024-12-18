@@ -1,0 +1,152 @@
+.first-section .container{
+    margin: 30px 0px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)), url("../image/first_section/cloth-rack.avif");
+    background-size: cover; 
+    background-position: center; 
+    height: 500px; 
+    width: 100%;
+    border-radius: 50px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+
+}
+
+.inner-container h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    width: 100%;
+
+}
+
+
+.input-container{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 10px;
+    padding-left: 10px;
+       
+}
+
+.input-container input{
+    border: none;
+    border-radius: 50px;
+    flex-basis: 90%;
+    background-color: transparent;
+    outline: none;
+    
+    
+}
+
+
+.input-container .arrow-icon{
+    width: 30px;
+    height: 30px;
+    flex-basis: 5%;
+    object-fit: contain;
+    
+}
+.input-container .search-icon{
+    height: 30px;
+    width: 30px;
+    flex-basis: 5%;
+    object-fit: contain;
+}
+
+
+
+.inner-container ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 25px;
+}
+
+
+
+.header-item{
+    display: inline;
+    margin-right: 25px;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px 30px;
+    border-radius: 50px;
+    font-size: 15px;    
+}
+
+.header-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header-item-container ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+@media(max-width:1300px){
+    .header-item{ 
+        display: inline-block;
+        margin: 15px;
+    }
+}
+
+
+@media(max-width:800px){
+    .header-item{ 
+        display: block;
+        margin: 5px;
+    }
+    .header-item-container ul{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .first-section .container{
+        height: 600px;
+    }
+}
+
+@media(max-width:500px){
+    .first-section .container{
+        height: 700px;
+    }
+}
+
+
+@media(max-width:410px){
+    .first-section .container{
+        height: 800px;
+    }
+    .input-container{
+        gap: 0px;
+    }
+}
+@media(max-width:320px){
+    .first-section .container{
+        height: 900px;
+    }
+}
+
+
